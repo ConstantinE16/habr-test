@@ -93,7 +93,7 @@ const imgError = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKTSvZN
 
 const props = defineProps({
   label: { type: String, default: 'Введите логин' },
-  maxTags: { type: Number, default: 4 },
+  maxTags: { type: Number, default: 1 },
   title: { type: String, default: 'Заголовок' },
   placeholder: { type: String, default: 'placeholder' },
   fetchFunction: { type: Function, required: true },
